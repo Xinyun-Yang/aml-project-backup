@@ -96,7 +96,7 @@ with data_and_problem_overview:
 ##################################################################################################################################################################################
 with model_training:
     st.header("Book Recommendation Storytelling Chart")
-    # bucket = storage_client.bucket('bk-rec-data')
+    bucket = storage_client.bucket('bk-rec-model2')
     blob3 = bucket.blob('BigStoryChart.png')
 
     # # Download the image data as bytes
